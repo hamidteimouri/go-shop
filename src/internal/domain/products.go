@@ -8,7 +8,7 @@ type Sku string
 
 const (
 	DiscountOfBoots     float64 = 30
-	DiscountOfSku000003 float64 = 50
+	DiscountOfSku000003 float64 = 15
 
 	CategoryBoots    Category = "boots"
 	CategorySandals  Category = "sandals"
