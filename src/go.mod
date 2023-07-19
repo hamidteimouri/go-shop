@@ -1,4 +1,4 @@
-module mytheresa
+module github.com/hamidteimouri/go-shop
 
 go 1.19
 

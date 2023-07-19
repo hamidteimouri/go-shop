@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/hamidteimouri/go-shop/internal/data/memory"
+	"github.com/hamidteimouri/go-shop/internal/domain"
+	"github.com/hamidteimouri/go-shop/internal/presentation/httpserver"
+	_ "github.com/hamidteimouri/go-shop/pkg"
 	"github.com/labstack/echo/v4"
 	"github.com/sirupsen/logrus"
-	"mytheresa/internal/data/memory"
-	"mytheresa/internal/domain"
-	"mytheresa/internal/presentation/httpserver"
-	_ "mytheresa/pkg"
 	"os"
 	"os/signal"
 	"syscall"

@@ -141,10 +141,10 @@ Please clone the project and run the command below :
 
 ```shell
 # clone the project 
-git clone git@github.com:hamidteimouri/mytheresa.git
+git clone git@github.com:hamidteimouri/go-shop.git
 
 # change directory 
-cd mytheresa
+cd go-shop
 
 # run the project via docker
 docker compose up -d
@@ -166,7 +166,7 @@ I just wrote tests just for domain of the project. To run the tests, you can pro
 
 ```shell
 # change directory to the src
-cd mytheresa/src
+cd go-shop/src
 
 # run tests
 go test ./...
@@ -175,7 +175,7 @@ go test ./...
 #### The second one (if you want check the coverage of domain tests, use command below)
 ```shell
 # change directory
-cd mytheresa/src/internal/domain
+cd go-shop/src/internal/domain
 
 # run the tests
 go test -coverprofile cover.out

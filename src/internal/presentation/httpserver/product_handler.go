@@ -2,9 +2,9 @@ package httpserver
 
 import (
 	"github.com/go-playground/validator/v10"
+	"github.com/hamidteimouri/go-shop/internal/domain"
 	"github.com/labstack/echo/v4"
 	"github.com/sirupsen/logrus"
-	"mytheresa/internal/domain"
 	"net/http"
 )
 

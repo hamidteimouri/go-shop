@@ -4,8 +4,8 @@ package mocks
 
 import (
 	context "context"
-	domain "mytheresa/internal/domain"
 
+	domain "github.com/hamidteimouri/go-shop/internal/domain"
 	mock "github.com/stretchr/testify/mock"
 )
 

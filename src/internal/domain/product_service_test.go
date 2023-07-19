@@ -3,9 +3,9 @@ package domain_test
 import (
 	"context"
 	"errors"
+	"github.com/hamidteimouri/go-shop/internal/domain"
+	"github.com/hamidteimouri/go-shop/internal/domain/mocks"
 	"github.com/stretchr/testify/mock"
-	"mytheresa/internal/domain"
-	"mytheresa/internal/domain/mocks"
 	"reflect"
 	"testing"
 )

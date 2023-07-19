@@ -1,6 +1,6 @@
 package memory
 
-import "mytheresa/internal/domain"
+import "github.com/hamidteimouri/go-shop/internal/domain"
 
 type ProductModel struct {
 	Sku      string

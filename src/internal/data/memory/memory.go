@@ -2,8 +2,8 @@ package memory
 
 import (
 	"context"
+	"github.com/hamidteimouri/go-shop/internal/domain"
 	"math"
-	"mytheresa/internal/domain"
 )
 
 type DataSource struct {
